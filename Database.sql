@@ -14,8 +14,8 @@
 
 
 -- Dumping database structure for darkrp
-CREATE DATABASE IF NOT EXISTS `darkrp` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
-USE `darkrp`;
+CREATE DATABASE IF NOT EXISTS `fivemserver` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+USE `fivemserver`;
 
 -- Dumping structure for tabel darkrp.addon_account
 CREATE TABLE IF NOT EXISTS `addon_account` (
