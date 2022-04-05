@@ -1,0 +1,2388 @@
+<?xml version="1.0"?>
+<CVehicleModelInfoVariation>
+	<variationData>
+		<Item>
+			<modelName>lcumksteed</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            4
+            0
+            111
+            156
+			0
+			0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            2
+            0
+            134
+            156
+			0
+			0
+          </indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1000_lcumksteed_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Liberty City Plate 2</Name>
+						<Value value="50" />
+					</Item>
+					<Item>
+						<Name>Liberty City Plate 3</Name>
+						<Value value="50" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1000" />
+			<sirenSettings value="3591" />
+		</Item>
+		<Item>
+			<modelName>lcumkspeedo</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            4
+            0
+            111
+            156
+			0
+			0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            2
+            0
+            134
+            156
+			0
+			0
+          </indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1001_lcumkspeedo_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Liberty City Plate 2</Name>
+						<Value value="50" />
+					</Item>
+					<Item>
+						<Name>Liberty City Plate 3</Name>
+						<Value value="50" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1001" />
+			<sirenSettings value="3591" />
+		</Item>
+		<Item>
+			<modelName>lcumkrumpo</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            4
+            0
+            111
+            156
+			0
+			0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            2
+            0
+            134
+            156
+			0
+			0
+          </indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1002_lcumkrumpo_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Liberty City Plate 2</Name>
+						<Value value="50" />
+					</Item>
+					<Item>
+						<Name>Liberty City Plate 3</Name>
+						<Value value="50" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1002" />
+			<sirenSettings value="3591" />
+		</Item>
+		<Item>
+			<modelName>lcumkradi</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            4
+            0
+            111
+            156
+			0
+			0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            2
+            0
+            134
+            156
+			0
+			0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            75
+            0
+            157
+            156
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            7
+            0
+            134
+            156
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            34
+            0
+            45
+            156
+            0
+            0
+          </indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1003_lcumkradi_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Liberty City Plate 2</Name>
+						<Value value="50" />
+					</Item>
+					<Item>
+						<Name>Liberty City Plate 3</Name>
+						<Value value="50" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1003" />
+			<sirenSettings value="3591" />
+		</Item>
+		<Item>
+			<modelName>lcumksemin</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            2
+            0
+            134
+            156
+			0
+			0
+          </indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1004_lcumksemin_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Liberty City Plate 2</Name>
+						<Value value="50" />
+					</Item>
+					<Item>
+						<Name>Liberty City Plate 3</Name>
+						<Value value="50" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1004" />
+			<sirenSettings value="3591" />
+		</Item>
+		<Item>
+			<modelName>lcumkroamer</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            4
+            0
+            111
+            156
+			0
+			0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            2
+            0
+            134
+            156
+			0
+			0
+          </indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1005_lcumkroamer_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Liberty City Plate 2</Name>
+						<Value value="50" />
+					</Item>
+					<Item>
+						<Name>Liberty City Plate 3</Name>
+						<Value value="50" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1005" />
+			<sirenSettings value="3591" />
+		</Item>
+		<Item>
+			<modelName>lcumkalamo2</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            4
+            0
+            111
+            156
+			0
+			0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            2
+            0
+            134
+            156
+			0
+			0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            75
+            0
+            157
+            156
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            7
+            0
+            134
+            156
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            34
+            0
+            45
+            156
+            0
+            0
+          </indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1006_lcumkalamo2_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Liberty City Plate 2</Name>
+						<Value value="50" />
+					</Item>
+					<Item>
+						<Name>Liberty City Plate 3</Name>
+						<Value value="50" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1006" />
+			<sirenSettings value="3591" />
+		</Item>
+		<Item>
+			<modelName>lcumkalamo</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            4
+            0
+            111
+            0
+			0
+			0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            2
+            0
+            134
+            0
+			0
+			0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            75
+            0
+            157
+            0
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            7
+            0
+            134
+            0
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            34
+            0
+            45
+            0
+            0
+            0
+          </indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1007_lcumkalamo_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Liberty City Plate 2</Name>
+						<Value value="50" />
+					</Item>
+					<Item>
+						<Name>Liberty City Plate 3</Name>
+						<Value value="50" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1007" />
+			<sirenSettings value="3591" />
+		</Item>
+		<Item>
+			<modelName>lcumkscout2</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            4
+            0
+            111
+            156
+			0
+			0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            2
+            0
+            134
+            156
+			0
+			0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            75
+            0
+            157
+            156
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            7
+            0
+            134
+            156
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            34
+            0
+            45
+            156
+            0
+            0
+          </indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1008_lcumkscout2_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Liberty City Plate 2</Name>
+						<Value value="50" />
+					</Item>
+					<Item>
+						<Name>Liberty City Plate 3</Name>
+						<Value value="50" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1008" />
+			<sirenSettings value="3591" />
+		</Item>
+		<Item>
+			<modelName>lcumkscout</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+          </indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1009_lcumkscout_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Liberty City Plate 2</Name>
+						<Value value="50" />
+					</Item>
+					<Item>
+						<Name>Liberty City Plate 3</Name>
+						<Value value="50" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1009" />
+			<sirenSettings value="3591" />
+		</Item>
+		<Item>
+			<modelName>lcumktore2</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            4
+            0
+            111
+            156
+			0
+			0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            2
+            0
+            134
+            156
+			0
+			0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            75
+            0
+            157
+            156
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            7
+            0
+            134
+            156
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            34
+            0
+            45
+            156
+            0
+            0
+          </indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1010_lcumktore2_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Liberty City Plate 2</Name>
+						<Value value="50" />
+					</Item>
+					<Item>
+						<Name>Liberty City Plate 3</Name>
+						<Value value="50" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1010" />
+			<sirenSettings value="3591" />
+		</Item>
+		<Item>
+			<modelName>lcumktore</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+          </indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1011_lcumktore_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Liberty City Plate 2</Name>
+						<Value value="50" />
+					</Item>
+					<Item>
+						<Name>Liberty City Plate 3</Name>
+						<Value value="50" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1011" />
+			<sirenSettings value="3591" />
+		</Item>
+		<Item>
+			<modelName>lcumkbuffs</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+          </indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1012_lcumkbuffs_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Liberty City Plate 2</Name>
+						<Value value="50" />
+					</Item>
+					<Item>
+						<Name>Liberty City Plate 3</Name>
+						<Value value="50" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1012" />
+			<sirenSettings value="3592" />
+		</Item>
+		<Item>
+			<modelName>lcumkbuffac</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+          </indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1013_lcumkbuffac_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Liberty City Plate 2</Name>
+						<Value value="50" />
+					</Item>
+					<Item>
+						<Name>Liberty City Plate 3</Name>
+						<Value value="50" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1013" />
+			<sirenSettings value="3591" />
+		</Item>
+		<Item>
+			<modelName>lcumkstan</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            4
+            0
+            111
+            156
+			0
+			0
+          </indices>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            2
+            0
+            134
+            156
+			0
+			0
+          </indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1014_lcumkstan_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Liberty City Plate 2</Name>
+						<Value value="50" />
+					</Item>
+					<Item>
+						<Name>Liberty City Plate 3</Name>
+						<Value value="50" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1014" />
+			<sirenSettings value="3591" />
+		</Item>
+		<Item>
+			<modelName>torrence</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+					</indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1015_torrence_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1015" />
+			<sirenSettings value="0" />
+		</Item>
+		<Item>
+			<modelName>apoliceu7</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+					</indices>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1016_apoliceu7_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1016" />
+			<sirenSettings value="7004" />
+		</Item>
+		<Item>
+			<modelName>apoliceu14</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+						<Item value="0" />
+						<Item value="0" />
+						<Item value="11" />
+						<Item value="156" />
+					</indices>
+					<liveries />
+				</Item>
+				<Item>
+					<indices content="char_array">
+						<Item value="2" />
+						<Item value="0" />
+						<Item value="0" />
+						<Item value="156" />
+					</indices>
+					<liveries />
+				</Item>
+				<Item>
+					<indices content="char_array">
+						<Item value="75" />
+						<Item value="0" />
+						<Item value="157" />
+						<Item value="156" />
+					</indices>
+					<liveries />
+				</Item>
+				<Item>
+					<indices content="char_array">
+						<Item value="7" />
+						<Item value="0" />
+						<Item value="0" />
+						<Item value="0" />
+					</indices>
+					<liveries />
+				</Item>
+				<Item>
+					<indices content="char_array">
+						<Item value="34" />
+						<Item value="0" />
+						<Item value="45" />
+						<Item value="0" />
+					</indices>
+					<liveries />
+				</Item>
+				<Item>
+					<indices content="char_array">
+						<Item value="0" />
+						<Item value="0" />
+						<Item value="2" />
+						<Item value="0" />
+					</indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>1017_apoliceu14_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1017" />
+			<sirenSettings value="7004" />
+		</Item>
+		<Item>
+			<modelName>apoliceu2</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+					</indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>1018_apoliceu2_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1018" />
+			<sirenSettings value="7004" />
+		</Item>
+		<Item>
+			<modelName>stanier2</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+					</indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>1019_stanier2_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1019" />
+			<sirenSettings value="0" />
+		</Item>
+		<Item>
+			<modelName>apoliceu6</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+					</indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>1020_apoliceu6_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1020" />
+			<sirenSettings value="2010" />
+		</Item>
+		<Item>
+			<modelName>apoliceub</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            12
+            12
+            12
+            7 
+      12
+      12
+					</indices>
+					<liveries>
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1021_apoliceub_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1021" />
+			<sirenSettings value="7004" />
+		</Item>
+		<Item>
+			<modelName>apoliceu15</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            12
+            12
+            12
+            156 
+      48
+      156
+					</indices>
+					<liveries>
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1022_apoliceu15_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1022" />
+			<sirenSettings value="7004" />
+		</Item>
+		<Item>
+			<modelName>apoliceu10</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            152
+            152
+            0
+            152
+					</indices>
+					<liveries>
+						<Item value="false" />
+					</liveries>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            3
+            3
+            0
+            3
+					</indices>
+					<liveries>
+						<Item value="false" />
+					</liveries>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            12
+            12
+            0
+            12
+					</indices>
+					<liveries>
+						<Item value="false" />
+					</liveries>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            52
+            52
+            0
+            52
+					</indices>
+					<liveries>
+						<Item value="false" />
+					</liveries>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            154
+            154
+            0
+            154
+					</indices>
+					<liveries>
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1023_apoliceu10_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1023" />
+			<sirenSettings value="7004" />
+		</Item>
+		<Item>
+			<modelName>apoliceu13</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            152
+            152
+            0
+            152
+					</indices>
+					<liveries>
+						<Item value="false" />
+					</liveries>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            3
+            3
+            0
+            3
+					</indices>
+					<liveries>
+						<Item value="false" />
+					</liveries>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            12
+            12
+            0
+            12
+					</indices>
+					<liveries>
+						<Item value="false" />
+					</liveries>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            52
+            52
+            0
+            52
+					</indices>
+					<liveries>
+						<Item value="false" />
+					</liveries>
+				</Item>
+				<Item>
+					<indices content="char_array">
+            154
+            154
+            0
+            154
+					</indices>
+					<liveries>
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1024_apoliceu13_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1024" />
+			<sirenSettings value="7004" />
+		</Item>
+		<Item>
+			<modelName>apoliceu</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+					</indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>1025_apoliceu_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1025" />
+			<sirenSettings value="7004" />
+		</Item>
+		<Item>
+			<modelName>apoliceu9</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            0
+            0
+            0
+					</indices>
+					<liveries>
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1026_apoliceu9_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1026" />
+			<sirenSettings value="7004" />
+		</Item>
+		<Item>
+			<modelName>police8</modelName>
+			<colors>
+				<Item>
+					<indices>
+						<Item value="0" />
+						<Item value="0" />
+						<Item value="3" />
+						<Item value="156" />
+					</indices>
+					<liveries>
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1027_police8_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>police guv plate</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1027" />
+			<sirenSettings value="1" />
+		</Item>
+		<Item>
+			<modelName>police71</modelName>
+			<colors>
+				<Item>
+					<indices>
+						<Item value="0" />
+						<Item value="0" />
+						<Item value="3" />
+						<Item value="156" />
+					</indices>
+					<liveries>
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1028_police71_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>police guv plate</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1028" />
+			<sirenSettings value="1" />
+		</Item>
+		<Item>
+			<modelName>police7</modelName>
+			<colors>
+				<Item>
+					<indices>
+						<Item value="0" />
+						<Item value="0" />
+						<Item value="3" />
+						<Item value="156" />
+					</indices>
+					<liveries>
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1029_police7_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>police guv plate</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1029" />
+			<sirenSettings value="1" />
+		</Item>
+		<Item>
+			<modelName>police61</modelName>
+			<colors>
+				<Item>
+					<indices>
+						<Item value="0" />
+						<Item value="0" />
+						<Item value="3" />
+						<Item value="156" />
+					</indices>
+					<liveries>
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1030_police61_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>police guv plate</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1030" />
+			<sirenSettings value="1" />
+		</Item>
+		<Item>
+			<modelName>police6</modelName>
+			<colors>
+				<Item>
+					<indices>
+						<Item value="0" />
+						<Item value="0" />
+						<Item value="3" />
+						<Item value="156" />
+					</indices>
+					<liveries>
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1031_police6_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>police guv plate</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1031" />
+			<sirenSettings value="1" />
+		</Item>
+		<Item>
+			<modelName>police5</modelName>
+			<colors>
+				<Item>
+					<indices>
+						<Item value="0" />
+						<Item value="0" />
+						<Item value="3" />
+						<Item value="156" />
+					</indices>
+					<liveries>
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1032_police5_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>police guv plate</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1032" />
+			<sirenSettings value="1" />
+		</Item>
+		<Item>
+			<modelName>police42</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+						<Item value="134" />
+						<Item value="134" />
+						<Item value="0" />
+						<Item value="156" />
+					</indices>
+					<liveries />
+				</Item>
+				<Item>
+					<indices>
+						<Item value="0" />
+						<Item value="0" />
+						<Item value="3" />
+						<Item value="156" />
+					</indices>
+					<liveries>
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1033_police42_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>police guv plate</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1033" />
+			<sirenSettings value="1" />
+		</Item>
+		<Item>
+			<modelName>police41</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+						<Item value="134" />
+						<Item value="134" />
+						<Item value="0" />
+						<Item value="156" />
+					</indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>1034_police41_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>police guv plate</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1034" />
+			<sirenSettings value="1" />
+		</Item>
+		<Item>
+			<modelName>police23</modelName>
+			<colors>
+				<Item>
+					<indices>
+						<Item value="0" />
+						<Item value="0" />
+						<Item value="3" />
+						<Item value="156" />
+					</indices>
+					<liveries>
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1035_police23_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>police guv plate</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1035" />
+			<sirenSettings value="1" />
+		</Item>
+		<Item>
+			<modelName>police22</modelName>
+			<colors>
+				<Item>
+					<indices>
+						<Item value="0" />
+						<Item value="0" />
+						<Item value="3" />
+						<Item value="156" />
+					</indices>
+					<liveries>
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1036_police22_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>police guv plate</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1036" />
+			<sirenSettings value="1" />
+		</Item>
+		<Item>
+			<modelName>police21</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            134
+            0
+            0
+            27
+            0
+            0
+          </indices>
+					<liveries>
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1037_police21_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Police guv plate</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1037" />
+			<sirenSettings value="1" />
+		</Item>
+		<Item>
+			<modelName>police12</modelName>
+			<colors>
+				<Item>
+					<indices>
+						<Item value="0" />
+						<Item value="0" />
+						<Item value="3" />
+						<Item value="156" />
+					</indices>
+					<liveries>
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1038_police12_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>police guv plate</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1038" />
+			<sirenSettings value="1" />
+		</Item>
+		<Item>
+			<modelName>police1</modelName>
+			<colors>
+				<Item>
+					<indices>
+						<Item value="0" />
+						<Item value="0" />
+						<Item value="3" />
+						<Item value="156" />
+					</indices>
+					<liveries>
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+				</Item>
+			</colors>
+			<kits>
+				<Item>1039_police1_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>police guv plate</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1039" />
+			<sirenSettings value="1" />
+		</Item>
+		<Item>
+			<modelName>dubstavip</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            156
+            0
+            0
+          </indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>1040_dubstavip_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="75" />
+					</Item>
+					<Item>
+						<Name>White Plate 2</Name>
+						<Value value="25" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1040" />
+			<sirenSettings value="6381" />
+		</Item>
+		<Item>
+			<modelName>oraclevip</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            0
+            0
+            156
+            0
+            0
+          </indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>1041_oraclevip_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="75" />
+					</Item>
+					<Item>
+						<Name>White Plate 2</Name>
+						<Value value="25" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1041" />
+			<sirenSettings value="6381" />
+		</Item>
+		<Item>
+			<modelName>reblavip</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            12
+            0
+            156 
+			4
+			0
+          </indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>1042_reblavip_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1042" />
+			<sirenSettings value="6381" />
+		</Item>
+		<Item>
+			<modelName>cogvip</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            120
+            0
+            156 
+			48
+			156
+          </indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>1043_cogvip_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1043" />
+			<sirenSettings value="6381" />
+		</Item>
+		<Item>
+			<modelName>cogvip2</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            120
+            0
+            156 
+			48
+			156
+          </indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>1044_cogvip2_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1044" />
+			<sirenSettings value="6381" />
+		</Item>
+		<Item>
+			<modelName>schaftervip</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            120
+            0
+            156 
+			48
+			156
+          </indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>1045_schaftervip_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1045" />
+			<sirenSettings value="6381" />
+		</Item>
+		<Item>
+			<modelName>schaftervip2</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            120
+            0
+            156 
+			48
+			156
+          </indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>1046_schaftervip2_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1046" />
+			<sirenSettings value="6381" />
+		</Item>
+		<Item>
+			<modelName>ballervip</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            120
+            0
+            7
+			8
+			156
+          </indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>1047_ballervip_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1047" />
+			<sirenSettings value="6381" />
+		</Item>
+		<Item>
+			<modelName>ballervip2</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0
+            120
+            0
+            7
+			8
+			156
+          </indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>1048_ballervip2_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1048" />
+			<sirenSettings value="6381" />
+		</Item>
+		<Item>
+			<modelName>xlsvip</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+            0 
+            120 
+            0 
+            156 
+          </indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>1049_xlsvip_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>Standard White</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="1049" />
+			<sirenSettings value="6381" />
+		</Item>
+	</variationData>
+</CVehicleModelInfoVariation>

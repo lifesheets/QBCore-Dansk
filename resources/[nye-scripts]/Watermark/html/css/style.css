@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body{
+  background: transparent !important;
+  opacity: 1.0;
+}
+
+span{
+  color: rgb(67, 120, 236) !important;
+  height: 150px;
+}
+
+#TidenIRLWatermark h3 {
+  text-shadow: 2px 2px 4px #000000;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  font-weight: 500 !important;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-top: 5px !important;
+}
+
+#OnlineOgID h3 {
+  text-shadow: 2px 2px 4px #000000;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  font-weight: 500 !important;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-top: -3px !important;
+}
+
+#noname span {
+  color: rgb(255,255,255) !important;
+  font-weight: 600 !important;
+  font-family: 'Oswald', sans-serif;
+  height: 10px;
+}
+
+#noname h1 {
+  text-shadow: 2px 2px 4px #000000;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600 !important;
+  color: rgb(155, 36, 36) !important;
+  text-align: center;
+}
+
+
+#showthetime {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  align-items: center;
+  margin-top: 10px;
+}
+ 
+#showthetime .logo {
+  width: 150px;
+  height: 28px;
+}
