@@ -65,8 +65,8 @@ RegisterNetEvent('qb-log:server:CreateLog', function(name, title, color, message
             },
             ['description'] = message,
             ['author'] = {
-                ['name'] = 'DarkRP Logs',
-                ['icon_url'] = 'https://cdn.discordapp.com/attachments/881855354206552094/935196007657005086/DarkRP.png',
+                ['name'] = 'Server Navn Logs',
+                ['icon_url'] = 'https://cdn.discordapp.com/attachments/560848407414177792/961256974480179280/12345.png',
             },
         }
     }

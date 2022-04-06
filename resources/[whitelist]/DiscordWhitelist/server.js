@@ -17,7 +17,7 @@ var blacklistRoles = [ // Roles by Id that are blacklisted.
 ];
 
 var notWhitelistedMessage = "Du er ikke whitelisted.";
-var noGuildMessage = "For at spille på serveren skal du tilslutte dig vores discord. https://discord.gg/u3gqrpsnpz";
+var noGuildMessage = "For at spille på serveren skal du tilslutte dig vores discord. Indsæt discord link her";
 var blacklistMessage = "Du er bannet fra denne server.";
 var debugMode = true;
 var cacheMaxTime = "5m";

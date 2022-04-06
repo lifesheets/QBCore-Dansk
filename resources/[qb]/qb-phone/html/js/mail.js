@@ -72,7 +72,7 @@ QB.Phone.Functions.SetupMails = function(Mails) {
     }
     var MessageTime = Hourssssss + ":" + Minutessss;
 
-    $("#mail-header-mail").html(QB.Phone.Data.PlayerData.charinfo.firstname+"."+QB.Phone.Data.PlayerData.charinfo.lastname+"@darkrp.com");
+    $("#mail-header-mail").html(QB.Phone.Data.PlayerData.charinfo.firstname+"."+QB.Phone.Data.PlayerData.charinfo.lastname+"@Server Navn.com");
     $("#mail-header-lastsync").html("Sidst Synkroniseret "+MessageTime);
     if (Mails !== null && Mails !== undefined) {
         if (Mails.length > 0) {

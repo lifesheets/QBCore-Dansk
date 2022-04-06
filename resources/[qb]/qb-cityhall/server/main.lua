@@ -45,7 +45,7 @@ RegisterNetEvent('qb-cityhall:server:sendDriverTest', function()
             local mailData = {
                 sender = "Kommune",
                 subject = "Anmodning om køretimer",
-                message = "Hello,<br /><br />Vi har lige modtaget en besked om, at nogen vil tage køretimer.<br />Hvis du er villig til at undervise, så kontakt os:<br />Navn: <strong>".. Player.PlayerData.charinfo.firstname .. " " .. Player.PlayerData.charinfo.lastname .. "<br />Telefon Nummer: <strong>"..Player.PlayerData.charinfo.phone.."</strong><br/><br/>Venlig hilsen,<br />DarkRP Kommune",
+                message = "Hello,<br /><br />Vi har lige modtaget en besked om, at nogen vil tage køretimer.<br />Hvis du er villig til at undervise, så kontakt os:<br />Navn: <strong>".. Player.PlayerData.charinfo.firstname .. " " .. Player.PlayerData.charinfo.lastname .. "<br />Telefon Nummer: <strong>"..Player.PlayerData.charinfo.phone.."</strong><br/><br/>Venlig hilsen,<br /> Kommunen",
                 button = {}
             }
             TriggerEvent("qb-phone:server:sendNewEventMail", v, mailData)
@@ -143,7 +143,7 @@ end
 
 RegisterNetEvent('qb-cityhall:server:banPlayer', function()
     local src = source
-    TriggerClientEvent('chatMessage', -1, "DarkRP Anti-Cheat", "error", GetPlayerName(src).." has been banned for sending POST Request's ")
+    TriggerClientEvent('chatMessage', -1, "Anti-Cheat", "error", GetPlayerName(src).." has been banned for sending POST Request's ")
     MySQL.Async.insert('INSERT INTO bans (name, license, discord, ip, reason, expire, bannedby) VALUES (?, ?, ?, ?, ?, ?, ?)', {
         GetPlayerName(src),
         QBCore.Functions.GetIdentifier(src, 'license'),

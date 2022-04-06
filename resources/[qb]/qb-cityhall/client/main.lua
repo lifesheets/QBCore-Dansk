@@ -98,7 +98,7 @@ RegisterNetEvent('qb-cityhall:client:sendDriverEmail', function(charinfo)
         TriggerServerEvent('qb-phone:server:sendNewMail', {
             sender = "Kommune",
             subject = "Anmodning om køretimer",
-            message = "Hej " .. gender .. " " .. charinfo.lastname .. ",<br /><br />Vi har lige modtaget en besked om, at nogen vil tage køretimer<br />Hvis du er villig til at undervise, så kontakt os:<br />Navn: <strong>".. charinfo.firstname .. " " .. charinfo.lastname .. "</strong><br />Telefon Nummer: <strong>"..charinfo.phone.."</strong><br/><br/>Venlig hilsen,<br />DarkRP kommune",
+            message = "Hej " .. gender .. " " .. charinfo.lastname .. ",<br /><br />Vi har lige modtaget en besked om, at nogen vil tage køretimer<br />Hvis du er villig til at undervise, så kontakt os:<br />Navn: <strong>".. charinfo.firstname .. " " .. charinfo.lastname .. "</strong><br />Telefon Nummer: <strong>"..charinfo.phone.."</strong><br/><br/>Venlig hilsen,<br /> kommunen",
             button = {}
         })
     end)

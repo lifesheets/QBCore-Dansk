@@ -621,7 +621,7 @@ function QBCore.Functions.CreateAccountNumber()
     local UniqueFound = false
     local AccountNumber = nil
     while not UniqueFound do
-        AccountNumber = 'DK' .. math.random(11, 99) .. 'DarkRP' .. math.random(111, 999) .. math.random(111, 999) .. math.random(11, 99)
+        AccountNumber = 'DK' .. math.random(11, 99) .. math.random(111, 999) .. math.random(111, 999) .. math.random(11, 99)
         local query = '%' .. AccountNumber .. '%'
         local result = MySQL.Sync.prepare('SELECT COUNT(*) as count FROM players WHERE charinfo LIKE ?', { query })
         if result == 0 then

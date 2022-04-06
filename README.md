@@ -5,9 +5,9 @@
 
  <details>
   <summary>Skift navn / logo</summary>
-    <li>Skift</li>
-    <li>Skift</li>
-    <li>Skift</li>
+    <li>* Åben Visual Studio Code og gør dette:</li>
+    <li>Søg på "Indsæt discord link her" og erstat det med et Discord link til din Discord</li>
+    <li>Søg på "Server Navn" og erstat det med dit server navn</li>
     <li>Skift</li>
     <li>Skift</li>
     <li>Skift</li>

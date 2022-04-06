@@ -10,8 +10,8 @@ Config.Splash = {
 	Header_IMG = 'https://cdn.discordapp.com/attachments/560848407414177792/949994938932813854/Join_Billed.png',
 	Enabled = false,
 	Wait = 10, -- How many seconds should splash page be shown for? (Max is 12)
-	Heading1 = "Velkommen til DarkRP",
+	Heading1 = "Velkommen til Server Navn",
 	Heading2 = "Nyd dit ophold!",
-	Discord_Link = 'https://discord.gg/u3gqrpsnpz',
+	Discord_Link = 'Indsæt discord link her',
 	Website_Link = '',
 }

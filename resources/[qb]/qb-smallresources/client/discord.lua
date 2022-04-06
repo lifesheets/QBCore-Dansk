@@ -6,12 +6,12 @@ CreateThread(function()
 	SetDiscordAppId(761267861212889098)
 
         -- Here you will have to put the image name for the "large" icon.
-	SetDiscordRichPresenceAsset('darkrp')
+	SetDiscordRichPresenceAsset('Skift Dette')
         
         -- (11-11-2018) New Natives:
 
         -- Here you can add hover text for the "large" icon.
-        SetDiscordRichPresenceAssetText('DarkRP [Whitelisted]')
+        SetDiscordRichPresenceAssetText('Server Navn')
        
         -- Here you will have to put the image name for the "small" icon.
 --        SetDiscordRichPresenceAssetSmall('logo_name')
@@ -31,7 +31,7 @@ CreateThread(function()
             last is the url (this has to start with "fivem://connect/" or "https://") 
         ]]--
         SetDiscordRichPresenceAction(0, "Tilslut", "fivem://connect/cfx.re/join/ybbo5k")
-        SetDiscordRichPresenceAction(1, "Discord", "https://discord.gg/u3gqrpsnpz")
+        SetDiscordRichPresenceAction(1, "Discord", "Indsæt discord link her")
 
         -- It updates every minute just in case.
 	Wait(60000)

@@ -11,8 +11,8 @@
 const LanguageLocaleCode = "en";
 
 // PUBLIC VALUES
-const FiveMServerName = "DarkRP";
-const DiscordInviteLink = "https://discord.gg/u3gqrpsnpz";
+const FiveMServerName = "Server Navn";
+const DiscordInviteLink = "Indsæt discord link her";
 const FiveMServerIP = "cfx.re/join/ybbo5k";
 
 // This spams the console, only enable for testing if needed
@@ -69,7 +69,7 @@ const SaveScreenshotsToServer = false;
 **************************/
 
 const EnableLoggingWebhooks = false;
-const LoggingWebhookName = "DarkRP";
+const LoggingWebhookName = "Server Navn";
 // put "&" in front of the id if you're to ping a role
 const LoggingAlertPingId = "&000000000000000000";
 // example: "bank": "https://discord.com/webhook/...",

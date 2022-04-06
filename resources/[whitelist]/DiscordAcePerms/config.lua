@@ -1,6 +1,6 @@
 Config = {
-	Server_Name = "DarkRP",
-	Discord_Link = 'https://discord.gg/u3gqrpsnpz',
+	Server_Name = "Server Navn",
+	Discord_Link = 'Indsæt discord link her',
 	Website_Link = '',   -- KOMMER SNART
 	roleList = {
 		{911697271861698633, "group.staff"}, -- Staff team rank

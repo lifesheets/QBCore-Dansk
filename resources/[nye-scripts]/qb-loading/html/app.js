@@ -15,7 +15,7 @@ const load = Vue.createApp({
 //      CarouselSubText4: 'Photo captured by: Robinerino#1312',
 
         DownloadTitle: 'Indlæser...',
-        DownloadDesc: "Du er nu på vej ind på DarkRP.\nHusk at læse reglerne.\nHav en god dag.",
+        DownloadDesc: "Du er nu på vej ind på Server Navn.\nHusk at læse reglerne.\nHav en god dag.",
 
       SettingsTitle: 'Indstillinger',
       AudioTrackDesc1: 'Når deaktiveret vil musikken være slået fra.',

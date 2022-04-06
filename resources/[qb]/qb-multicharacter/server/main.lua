@@ -73,13 +73,13 @@ end)
 
 RegisterNetEvent('qb-multicharacter:server:disconnect', function()
     local src = source
-    DropPlayer(src, "You have disconnected from DarkRP")
+    DropPlayer(src, "You have disconnected from Server Navn")
 end)
 
 RegisterNetEvent('qb-multicharacter:server:loadUserData', function(cData)
     local src = source
     if QBCore.Player.Login(src, cData.citizenid) then
-        print('^2[DarkRP]^7 '..GetPlayerName(src)..' (Citizen ID: '..cData.citizenid..') has succesfully loaded!')
+        print('^2[Server Navn]^7 '..GetPlayerName(src)..' (Citizen ID: '..cData.citizenid..') has succesfully loaded!')
         QBCore.Commands.Refresh(src)
         loadHouseData()
         TriggerClientEvent('apartments:client:setupSpawnUI', src, cData)
@@ -96,14 +96,14 @@ RegisterNetEvent('qb-multicharacter:server:createCharacter', function(data)
         if Config.StartingApartment then
             local randbucket = (GetPlayerPed(src) .. math.random(1,999))
             SetPlayerRoutingBucket(src, randbucket)
-            print('^2[DarkRP]^7 '..GetPlayerName(src)..' has succesfully loaded!')
+            print('^2[Server Navn]^7 '..GetPlayerName(src)..' has succesfully loaded!')
             QBCore.Commands.Refresh(src)
             loadHouseData()
             TriggerClientEvent("qb-multicharacter:client:closeNUI", src)
             TriggerClientEvent('apartments:client:setupSpawnUI', src, newData)
             GiveStarterItems(src)
         else
-            print('^2[DarkRP]^7 '..GetPlayerName(src)..' has succesfully loaded!')
+            print('^2[Server Navn]^7 '..GetPlayerName(src)..' has succesfully loaded!')
             QBCore.Commands.Refresh(src)
             loadHouseData()
             TriggerClientEvent("qb-multicharacter:client:closeNUIdefault", src)

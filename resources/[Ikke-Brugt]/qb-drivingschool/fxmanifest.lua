@@ -1,7 +1,7 @@
 fx_version 'adamant'
 game 'gta5'
 
-description 'DarkRP Driving School'
+description 'Driving School'
 
 version '1.0.4'
 

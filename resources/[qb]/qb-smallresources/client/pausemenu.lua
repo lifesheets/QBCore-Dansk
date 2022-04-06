@@ -2,7 +2,7 @@ function AddTextEntry(k, v)
     Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"), k, v)
  end
  
- local fivem_title = "~b~DarkRP"
+ local fivem_title = "~b~Server Navn"
  local map_category = "~bold~~g~Map"
  
  local game_category = "~bold~~b~Spil"
@@ -40,8 +40,8 @@ end
 Citizen.CreateThread(function()
    while true do
        if GetPauseMenuState() > 0 then
-           SetHeading(0, '~r~DarkRP')
-           SetHeading(1, '~b~Discord.gg/u3gqrpsnpz')
+           SetHeading(0, '~r~Server Navn')
+           SetHeading(1, '~b~Indsæt discord link her')
            SetHeading(2, '~o~Whitelisted')
        end
        Citizen.Wait(100)

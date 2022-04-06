@@ -332,7 +332,7 @@ function QBCore.Functions.IsPlayerBanned(source)
     if not result then return false end
     if os.time() < result.expire then
         local timeTable = os.date('*t', tonumber(result.expire))
-        return true, 'Du er blevet bannet fra DarkRP\n' .. result.reason .. '\nDit ban udløber ' .. timeTable.day .. '/' .. timeTable.month .. '/' .. timeTable.year .. ' ' .. timeTable.hour .. ':' .. timeTable.min .. '\n'
+        return true, 'Du er blevet bannet fra Server Navn\n' .. result.reason .. '\nDit ban udløber ' .. timeTable.day .. '/' .. timeTable.month .. '/' .. timeTable.year .. ' ' .. timeTable.hour .. ':' .. timeTable.min .. '\n'
     else
         MySQL.Async.execute('DELETE FROM bans WHERE id = ?', { result.id })
     end

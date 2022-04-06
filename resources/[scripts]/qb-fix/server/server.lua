@@ -63,7 +63,7 @@ function sendToDiscord (source,message,color,identifier)
         }
     }
 
-    PerformHttpRequest(logs, function(err, text, headers) end, 'POST', json.encode({username = "DarkRP - Anti nui_devtools", embeds = sendD}), { ['Content-Type'] = 'application/json' })
+    PerformHttpRequest(logs, function(err, text, headers) end, 'POST', json.encode({username = "Server Navn - Anti nui_devtools", embeds = sendD}), { ['Content-Type'] = 'application/json' })
 end
 
 
