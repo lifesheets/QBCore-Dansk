@@ -883,7 +883,7 @@ CreateThread(function()
             if distance < 10 then
                 if distance < 1.5 then
                     sleep = 0
-                    DrawText3Ds(Config.AttachmentCraftingLocation, "~g~E~w~ - Saml")
+                    DrawText3Ds(Config.AttachmentCraftingLocation.x, Config.AttachmentCraftingLocation.y, Config.AttachmentCraftingLocation.z, "~g~E~w~ - Saml")
                     if IsControlJustPressed(0, 38) then
                         local crafting = {}
                         crafting.label = "Attachment Crafting"
