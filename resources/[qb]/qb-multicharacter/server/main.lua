@@ -73,13 +73,13 @@ end)
 
 RegisterNetEvent('qb-multicharacter:server:disconnect', function()
     local src = source
-    DropPlayer(src, "You have disconnected from Server Navn")
+    DropPlayer(src, "You have disconnected from DarkRP")
 end)
 
 RegisterNetEvent('qb-multicharacter:server:loadUserData', function(cData)
     local src = source
     if QBCore.Player.Login(src, cData.citizenid) then
-        print('^2[Server Navn]^7 '..GetPlayerName(src)..' (Citizen ID: '..cData.citizenid..') has succesfully loaded!')
+        print('^2[DarkRP]^7 '..GetPlayerName(src)..' (Citizen ID: '..cData.citizenid..') has succesfully loaded!')
         QBCore.Commands.Refresh(src)
         loadHouseData()
         TriggerClientEvent('apartments:client:setupSpawnUI', src, cData)
@@ -96,14 +96,14 @@ RegisterNetEvent('qb-multicharacter:server:createCharacter', function(data)
         if Config.StartingApartment then
             local randbucket = (GetPlayerPed(src) .. math.random(1,999))
             SetPlayerRoutingBucket(src, randbucket)
-            print('^2[Server Navn]^7 '..GetPlayerName(src)..' has succesfully loaded!')
+            print('^2[DarkRP]^7 '..GetPlayerName(src)..' has succesfully loaded!')
             QBCore.Commands.Refresh(src)
             loadHouseData()
             TriggerClientEvent("qb-multicharacter:client:closeNUI", src)
             TriggerClientEvent('apartments:client:setupSpawnUI', src, newData)
             GiveStarterItems(src)
         else
-            print('^2[Server Navn]^7 '..GetPlayerName(src)..' has succesfully loaded!')
+            print('^2[DarkRP]^7 '..GetPlayerName(src)..' has succesfully loaded!')
             QBCore.Commands.Refresh(src)
             loadHouseData()
             TriggerClientEvent("qb-multicharacter:client:closeNUIdefault", src)
@@ -132,6 +132,25 @@ QBCore.Functions.CreateCallback("qb-multicharacter:server:GetServerLogs", functi
     MySQL.Async.execute('SELECT * FROM server_logs', {}, function(result)
         cb(result)
     end)
+end)
+
+QBCore.Functions.CreateCallback("qb-multicharacter:server:GetNumberOfCharacters", function(source, cb)
+    local license = QBCore.Functions.GetIdentifier(source, 'license')
+    local numOfChars = 0
+
+    if next(Config.PlayersNumberOfCharacters) then
+        for i, v in pairs(Config.PlayersNumberOfCharacters) do
+            if v.license == license then
+                numOfChars = v.numberOfChars
+                break
+            else 
+                numOfChars = Config.DefaultNumberOfCharacters
+            end
+        end
+    else
+        numOfChars = Config.DefaultNumberOfCharacters
+    end
+    cb(numOfChars)
 end)
 
 QBCore.Functions.CreateCallback("qb-multicharacter:server:setupCharacters", function(source, cb)
