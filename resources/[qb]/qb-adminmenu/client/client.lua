@@ -506,7 +506,7 @@ vehicledev_button:On('select', function()
 end)
 
 noclip_button:On('change', function(item, newValue, oldValue)
-    ToggleNoClip()
+    ToggleNoClipMode()
 end)
 
 togglecoords_button:On('change', function()
