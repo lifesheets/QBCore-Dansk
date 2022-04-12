@@ -86,10 +86,9 @@ Config.Locations = {
 }
 
 Config.Vehicles = {
-    ["flatbed"] = "Automester Ladvogn",
+    ["flatbedm2"] = "Ladvogn",
     ["towtruck"] = "Towtruck",
-    ["burrito4"] = "Automester Varevogn",
---    ["blista"] = "Blista",
+    ["blista"] = "Blista",
 }
 
 Config.MinimalMetersForDamage = {
