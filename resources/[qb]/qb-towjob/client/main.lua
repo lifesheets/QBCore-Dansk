@@ -353,7 +353,7 @@ RegisterNetEvent('qb-tow:client:TowVehicle', function()
             end)
         end
     else
-        QBCore.Functions.Notify("Du Skal Have Været I Et Bugserkøretøj Først", "error")
+        QBCore.Functions.Notify("Du skal have været e et bugserkøretøj først", "error")
     end
 end)
 
