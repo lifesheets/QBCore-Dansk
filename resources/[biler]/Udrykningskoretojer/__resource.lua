@@ -13,7 +13,9 @@ files {
     'data/politi/carcols.meta',
     'data/politi/handling.meta',
     'data/politi/weapons.meta',
-    'data/andet/vehicles.meta',
+	'data/andet/vehicles.meta',
+    'data/andet/carvariations.meta',
+    'data/andet/carcols.meta',
     'data/andet/handling.meta',
     -- Els Filer
 --[[    'vcf/fbi.xml',
@@ -45,8 +47,10 @@ data_file 'HANDLING_FILE' 'data/politi/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'data/politi/vehicles.meta'
 data_file 'CARCOLS_FILE' 'data/politi/carcols.meta'
 data_file 'VEHICLE_VARIATION_FILE' 'data/politi/carvariations.meta'
-data_file 'CARCOLS_FILE' 'data/andet/vehicles.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'data/andet/handling.meta'
 data_file 'WEAPONINFO_FILE_PATCH' 'data/politi/weapons.meta'
+data_file 'HANDLING_FILE' 'data/andet/handling.meta'
+data_file 'VEHICLE_METADATA_FILE' 'data/andet/vehicles.meta'
+data_file 'CARCOLS_FILE' 'data/andet/carcols.meta'
+data_file 'VEHICLE_VARIATION_FILE' 'data/andet/carvariations.meta'
 
 --is_els 'true'
