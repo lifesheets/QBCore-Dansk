@@ -32,18 +32,9 @@ server_scripts {
 	'server/events.lua',
 	'server/commands.lua',
 	'server/exports.lua',
-	'server/debug.lua'
+	'server/debug.lua',
+	'server/sv_status.lua'
 }
-
---[[ui_page 'html/index.html'
-
-files {
-	'html/index.html',
-	'html/css/style.css',
-	'html/css/drawtext.css',
-	'html/css/main.css',
-	'html/js/*.js'
-}]]
 
 ui_page 'html/ui.html'
 
