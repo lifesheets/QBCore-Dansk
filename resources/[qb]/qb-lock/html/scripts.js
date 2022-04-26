@@ -54,9 +54,9 @@ function init() {
 // alterar para 2 se n der o 0.01
     // Adding the key_to_press
     ctx.fillStyle = txtcolor;
-    ctx.font = "100px sans-serif";
+    ctx.font = "50px sans-serif";
     let text_width = ctx.measureText(key_to_press).width;
-    ctx.fillText(key_to_press, W / 2 - text_width / 2, H / 2 + 35);
+    ctx.fillText(key_to_press, W / 2 - text_width / 2, H / 2 + 20);
 }
 
 function draw(time) {
@@ -69,7 +69,7 @@ function draw(time) {
     degrees = 0;
     new_degrees = 360;
 
-    key_to_press = ''+getRandomInt(1,4);
+    key_to_press = 'Tryk '+getRandomInt(1,4);
 
     time = time;
 

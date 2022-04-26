@@ -10,21 +10,21 @@ RegisterNetEvent('mt-fishing:client:MenuCompras', function(data)
         },
         {
             header = "Fiskestang",
-            txt = "Price: <br> 100$",
+            txt = "Pris: <br> 500 DKK",
             params = {
                 event = "mt-fishing:client:ComprarCana",
             }
         },
         {
             header = "Fiskeagn",
-            txt = "Price: <br> 10$",
+            txt = "Pris: <br> 10 DKK",
             params = {
                 event = "mt-fishing:client:ComprarIsco",
             }
         },
         {
             header = "Lej en båd",
-            txt = "Price: <br> 1000$",
+            txt = "Pris: <br> 7500 DKK",
             params = {
                 event = "mt-fishing:client:AlugarBarco",
             }
