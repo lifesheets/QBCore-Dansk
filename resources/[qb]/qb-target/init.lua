@@ -80,7 +80,7 @@ Config.TargetModels = {
                 type = "client",
                 event = "mt-fishing:client:AbrirLoja",
                 icon = "fas fa-fish", 
-                label = "Talk to emplyee",
+                label = "Tal med medarbejder",
             }
         },
         distance = 2.5,
@@ -95,7 +95,7 @@ Config.TargetModels = {
                 type = "client",
                 event = "mt-fishing:client:MenuVendas",
                 icon = "fas fa-fish", 
-                label = "Talk to girl",
+                label = "Tal med pigen",
             }
         },
         distance = 2.5,

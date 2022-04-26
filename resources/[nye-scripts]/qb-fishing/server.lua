@@ -26,16 +26,16 @@ RegisterNetEvent('mt-fishing:server:DarPeixe', function(data)
         if Player.Functions.AddItem("peixe_pesca", quantity) then
             TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["peixe_pesca"], 'add')
         else
-            QBCore.Functions.Notify('You have full pockets.', 'error', 7500)
+            QBCore.Functions.Notify('Dine lommer er fulde.', 'error', 7500)
         end  
     elseif prob >= 40 and prob < 80 then
         if Player.Functions.AddItem("peixe_exotico_pesca", quantity) then
             TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["peixe_exotico_pesca"], 'add')
         else
-            QBCore.Functions.Notify('You have full pockets.', 'error', 7500)
+            QBCore.Functions.Notify('Dine lommer er fulde.', 'error', 7500)
         end
     else
-        QBCore.Functions.Notify('You dont hit any fish', 'error', 7500)
+        QBCore.Functions.Notify('Du rammer ingen fisk', 'error', 7500)
     end
 end)
 
@@ -49,7 +49,7 @@ RegisterNetEvent('mt-fishing:server:ComprarCana', function(data)
 
     if Player.Functions.AddItem(Item, quantity) then
         Player.Functions.RemoveMoney(cash, price)
-        QBCore.Functions.Notify('You buy a Fishing Rod', 'primary', 7500)
+        QBCore.Functions.Notify('Du købte en fiskestang', 'primary', 7500)
     end
 end)
 
@@ -63,7 +63,7 @@ RegisterNetEvent('mt-fishing:server:ComprarIsco', function(data)
 
     if Player.Functions.AddItem(Item, quantity) then
         Player.Functions.RemoveMoney(cash, price)
-        QBCore.Functions.Notify('You buy a Fishing Bait', 'primary', 7500)
+        QBCore.Functions.Notify('Du købte fiskeagn', 'primary', 7500)
     end
 end)
 
@@ -86,12 +86,12 @@ RegisterNetEvent('mt-fishing:server:VenderPeixe', function()
                     Player.Functions.RemoveItem(Player.PlayerData.items[k].name, Player.PlayerData.items[k].amount, k)
 
         Player.Functions.AddMoney("cash", price, "sold-fish")
-            TriggerClientEvent('QBCore:Notify', src, "You sell some fish for $"..price)
+            TriggerClientEvent('QBCore:Notify', src, "Du solgte nogle fisk for "..price.." DKK")
                 end
             end
         end
     else
-        TriggerClientEvent('QBCore:Notify', src, "You dont/'t have anything to sell..")
+        TriggerClientEvent('QBCore:Notify', src, "Du har ikke noget du kan sælge..")
     end
 end)
 

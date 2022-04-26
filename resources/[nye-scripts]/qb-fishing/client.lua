@@ -5,32 +5,32 @@ local QBCore = exports['qb-core']:GetCoreObject()
 RegisterNetEvent('mt-fishing:client:MenuCompras', function(data)
     exports['qb-menu']:openMenu({
         {
-            header = "Fishing Shop",
+            header = "Fiskebutik",
             isMenuHeader = true,
         },
         {
-            header = "Fishing Rod",
+            header = "Fiskestang",
             txt = "Price: <br> 100$",
             params = {
                 event = "mt-fishing:client:ComprarCana",
             }
         },
         {
-            header = "Fishing Bait",
+            header = "Fiskeagn",
             txt = "Price: <br> 10$",
             params = {
                 event = "mt-fishing:client:ComprarIsco",
             }
         },
         {
-            header = "Rent a Boat",
+            header = "Lej en båd",
             txt = "Price: <br> 1000$",
             params = {
                 event = "mt-fishing:client:AlugarBarco",
             }
         },
         {
-            header = "< Close",
+            header = "< Luk",
             txt = "",
             params = {
                 event = "qb-menu:closeMenu",
@@ -54,7 +54,7 @@ RegisterNetEvent('mt-fishing:client:AlugarBarco', function(data)
     local coords = vector4(-1600.0, 5211.65, 0.15, 115.64)
     TriggerServerEvent('mt-fishing:server:RemoverDinheiroAluger')
     QBCore.Functions.SpawnVehicle(vehicle, function(veh)
-        SetVehicleNumberPlateText(veh, "FISH"..tostring(math.random(1000, 9999)))
+        SetVehicleNumberPlateText(veh, "FISK"..tostring(math.random(1000, 9999)))
         exports['LegacyFuel']:SetFuel(veh, 100.0)
         --SetEntityHeading(veh, coords.h)
         TaskWarpPedIntoVehicle(GetPlayerPed(-1), veh, -1)
@@ -64,7 +64,7 @@ RegisterNetEvent('mt-fishing:client:AlugarBarco', function(data)
 end)
 
 RegisterNetEvent('mt-fishing:client:AbrirLoja', function(data)
-    QBCore.Functions.Progressbar('fishing_store', 'TALKING TO EMPLOYEE...', 1000, false, true, { -- Name | Label | Time | useWhileDead | canCancel
+    QBCore.Functions.Progressbar('fishing_store', 'Taler med medarbejder...', 1000, false, true, { -- Name | Label | Time | useWhileDead | canCancel
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -76,7 +76,7 @@ RegisterNetEvent('mt-fishing:client:AbrirLoja', function(data)
 end)
 
 RegisterNetEvent('mt-fishing:client:MenuVendas', function(data)
-    QBCore.Functions.Progressbar('fishing_store', 'TALKING TO EMPLOYEE...', 1000, false, true, { -- Name | Label | Time | useWhileDead | canCancel
+    QBCore.Functions.Progressbar('fishing_store', 'Taler med medarbejder...', 1000, false, true, { -- Name | Label | Time | useWhileDead | canCancel
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -85,18 +85,18 @@ RegisterNetEvent('mt-fishing:client:MenuVendas', function(data)
         TriggerServerEvent("InteractSound_SV:PlayOnSource", "monkeyopening", 0.1)
         exports['qb-menu']:openMenu({
             {
-                header = "Sell Fish Employee",
+                header = "Sælg Fisk",
                 isMenuHeader = true,
             },
             {
-                header = "Sell All Fish",
-                txt = "You'll sell all fish that you have on you <br> Prices: <br> Exotic Fish - 100$ <br> Fish - 10$",
+                header = "Sælg alle fisk",
+                txt = "Sælg alle de fisk du har på dig <br> Pris: <br> Eksotisk fisk - 5000 DKK <br> Fisk - 1000 DKK",
                 params = {
                     event = "mt-fishing:client:VenderPeixe",
                 }
             },
             {
-                header = "< Close",
+                header = "< Luk",
                 txt = "",
                 params = {
                     event = "qb-menu:closeMenu",
@@ -140,13 +140,13 @@ RegisterNetEvent('mt-fishing:client:ComecarPesca', function(data)
                 DeleteEntity(fishingRodHash)
             else
                 TriggerServerEvent('mt-fishing:server:PerderIsco')
-                QBCore.Functions.Notify('The fish scape...', 'error', 7500)
+                QBCore.Functions.Notify('Fisken undslap...', 'error', 7500)
                 ClearPedTasks(ped)
                 DeleteObject(fishingRodHash)
                 DeleteEntity(fishingRodHash)
             end
         else
-        QBCore.Functions.Notify("You dont have any fishing bait or not near water...", "error")
+        QBCore.Functions.Notify("Du har ikke noget fiskeagn eller ikke i nærheden af ​​vand...", "error")
         end
       end, 'isco_pesca')
 end)
@@ -160,6 +160,6 @@ Citizen.CreateThread(function()
 	SetBlipAsShortRange(blip, true)
 	SetBlipColour(blip, 37) -- Mudar cor aqui!
 	BeginTextCommandSetBlipName("STRING")
-	AddTextComponentSubstringPlayerName("Fishing Shop")
+	AddTextComponentSubstringPlayerName("Fiskebutik")
     EndTextCommandSetBlipName(blip)
 end)
