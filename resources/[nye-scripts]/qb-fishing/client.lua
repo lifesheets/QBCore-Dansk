@@ -17,7 +17,7 @@ RegisterNetEvent('mt-fishing:client:MenuCompras', function(data)
         },
         {
             header = "Fiskeagn",
-            txt = "Pris: <br> 10 DKK",
+            txt = "Pris: <br> 25 DKK",
             params = {
                 event = "mt-fishing:client:ComprarIsco",
             }

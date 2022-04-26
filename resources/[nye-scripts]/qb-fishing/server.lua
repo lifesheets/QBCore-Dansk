@@ -44,7 +44,7 @@ RegisterNetEvent('mt-fishing:server:ComprarCana', function(data)
     local Player = QBCore.Functions.GetPlayer(source)
     local quantity = 1
     local cash = 'bank'
-    local price = 100
+    local price = 500
     local Item = 'cana_pesca'
 
     if Player.Functions.AddItem(Item, quantity) then
@@ -58,7 +58,7 @@ RegisterNetEvent('mt-fishing:server:ComprarIsco', function(data)
     local Player = QBCore.Functions.GetPlayer(source)
     local quantity = 1
     local cash = 'bank'
-    local price = 10
+    local price = 25
     local Item = 'isco_pesca'
 
     if Player.Functions.AddItem(Item, quantity) then
@@ -68,8 +68,8 @@ RegisterNetEvent('mt-fishing:server:ComprarIsco', function(data)
 end)
 
 local ItemList = {
-    ["peixe_pesca"] =  10,
-    ["peixe_exotico_pesca"] =  100,
+    ["peixe_pesca"] =  1000,
+    ["peixe_exotico_pesca"] =  5000,
 }
 
 RegisterNetEvent('mt-fishing:server:VenderPeixe', function()
@@ -98,7 +98,7 @@ end)
 RegisterNetEvent('mt-fishing:server:RemoverDinheiroAluger', function()
 	local src = source
 	local cash = 'bank'
-	local price = 1000
+	local price = 7500
 	local Player = QBCore.Functions.getPlayer(src)
 		
 	Player.Functions.RemoveMoney(cash, price)
