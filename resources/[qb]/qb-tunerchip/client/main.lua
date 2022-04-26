@@ -44,13 +44,13 @@ RegisterNetEvent('qb-tunerchip:client:TuneStatus', function()
     if vehModel ~= 0 then
         QBCore.Functions.TriggerCallback('qb-tunerchip:server:GetStatus', function(status)
             if status then
-                QBCore.Functions.Notify('Dette Køretøj Er Blevet Tunet', 'success')
+                QBCore.Functions.Notify('Dette køretøj er blevet tunet', 'success')
             else
-                QBCore.Functions.Notify('Dette Køretøj Er Ikke blevet Tunet', 'error')
+                QBCore.Functions.Notify('Dette køretøj er ikke blevet tunet', 'error')
             end
         end, plate)
     else
-        QBCore.Functions.Notify('Intet Køretøj I Nærheden', 'error')
+        QBCore.Functions.Notify('Intet køretøj i nærheden', 'error')
     end
 end)
 
