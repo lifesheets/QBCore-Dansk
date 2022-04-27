@@ -26,16 +26,16 @@ RegisterNetEvent('mt-fishing:server:DarPeixe', function(data)
         if Player.Functions.AddItem("peixe_pesca", quantity) then
             TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["peixe_pesca"], 'add')
         else
-            QBCore.Functions.Notify('Dine lommer er fulde.', 'error', 7500)
+            TriggerClientEvent('QBCore:Notify', src, 'Dine lommer er fulde.', 'error', 7500)
         end  
     elseif prob >= 40 and prob < 80 then
         if Player.Functions.AddItem("peixe_exotico_pesca", quantity) then
             TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["peixe_exotico_pesca"], 'add')
         else
-            QBCore.Functions.Notify('Dine lommer er fulde.', 'error', 7500)
+            TriggerClientEvent('QBCore:Notify', src, 'Dine lommer er fulde.', 'error', 7500)
         end
     else
-        QBCore.Functions.Notify('Du rammer ingen fisk', 'error', 7500)
+        TriggerClientEvent('QBCore:Notify', src, 'Du rammer ingen fisk', 'error', 7500)
     end
 end)
 
@@ -49,7 +49,7 @@ RegisterNetEvent('mt-fishing:server:ComprarCana', function(data)
 
     if Player.Functions.AddItem(Item, quantity) then
         Player.Functions.RemoveMoney(cash, price)
-        QBCore.Functions.Notify('Du købte en fiskestang', 'primary', 7500)
+        TriggerClientEvent('QBCore:Notify', src, 'Du købte en fiskestang', 'primary', 7500)
     end
 end)
 
@@ -63,7 +63,7 @@ RegisterNetEvent('mt-fishing:server:ComprarIsco', function(data)
 
     if Player.Functions.AddItem(Item, quantity) then
         Player.Functions.RemoveMoney(cash, price)
-        QBCore.Functions.Notify('Du købte fiskeagn', 'primary', 7500)
+        TriggerClientEvent('QBCore:Notify', src, 'Du købte fiskeagn', 'primary', 7500)
     end
 end)
 
@@ -99,7 +99,7 @@ RegisterNetEvent('mt-fishing:server:RemoverDinheiroAluger', function()
 	local src = source
 	local cash = 'bank'
 	local price = 7500
-	local Player = QBCore.Functions.getPlayer(src)
+	local Player = QBCore.Functions.GetPlayer(src)
 		
 	Player.Functions.RemoveMoney(cash, price)
 end)

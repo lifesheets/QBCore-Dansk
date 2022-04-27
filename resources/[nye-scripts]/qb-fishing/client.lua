@@ -140,13 +140,13 @@ RegisterNetEvent('mt-fishing:client:ComecarPesca', function(data)
                 DeleteEntity(fishingRodHash)
             else
                 TriggerServerEvent('mt-fishing:server:PerderIsco')
-                QBCore.Functions.Notify('Fisken undslap...', 'error', 7500)
+                TriggerClientEvent('QBCore:Notify', src, 'Fisken undslap...', 'error', 7500)
                 ClearPedTasks(ped)
                 DeleteObject(fishingRodHash)
                 DeleteEntity(fishingRodHash)
             end
         else
-        QBCore.Functions.Notify("Du har ikke noget fiskeagn eller ikke i nærheden af ​​vand...", "error")
+            TriggerClientEvent('QBCore:Notify', src, "Du har ikke noget fiskeagn eller ikke i nærheden af ​​vand...", "error")
         end
       end, 'isco_pesca')
 end)
