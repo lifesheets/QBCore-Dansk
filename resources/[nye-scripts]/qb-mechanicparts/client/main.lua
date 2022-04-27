@@ -3861,29 +3861,29 @@ RegisterNetEvent('craft:vehmenu', function()
     exports['qb-menu']:openMenu({
         {
             id = 1,
-            header = "Vehicle: " .. plate,
+            header = "Køretøj: " .. plate,
             txt = "",
             isMenuHeader = true
         },
         {
             id = 2,
-            header = "Vehicle Status",
-            txt = "View vehicle health and status",
+            header = "Køretøj Status",
+            txt = "Tjek Køretøjets Helbred og Status",
             params = {
                 event = "craft:vehstatus",
             }
         },
         {
             id = 3,
-            header = "Vehicle Modifications",
-            txt = "View vehicles modifications and upgrades",
+            header = "Køretøj Modifikationer",
+            txt = "Tjek Køretøjets Modifikationer og Opgraderinger",
             params = {
                 event = "craft:vehmods",
             }
         },
         {
             id = 4,
-            header = "Close Menu",
+            header = "Luk Menu",
             txt = "",
             params = {
                 event = "qb-menu:client:closeMenu",
@@ -3899,7 +3899,7 @@ RegisterNetEvent('craft:vehmods', function()
     local plate = QBCore.Functions.GetPlate(vehicle)
     local statusList = exports['qb-mechanicjob']:GetVehicleStatusList(plate)
     local fuel = exports['LegacyFuel']:GetFuel(vehicle)
-    local turbo = "N/A"
+    local turbo = "Ingen Turbo"
     if IsToggleModOn(vehicle, 18) == 1 then
         turbo = "Turbo"
     end
@@ -3910,13 +3910,13 @@ RegisterNetEvent('craft:vehmods', function()
         if engineMod == -1 then
             engine = "Stock"
         elseif engineMod == 0 then
-            engine = "Stage 1 Upgrade"
+            engine = "Stage 1 Opgradering"
         elseif engineMod == 1 then
-            engine = "Stage 2 Upgrade"
+            engine = "Stage 2 Opgradering"
         elseif engineMod == 2 then
-            engine = "Stage 3 Upgrade"
+            engine = "Stage 3 Opgradering"
         elseif engineMod == 3 then
-            engine = "Stage 4 Upgrade"
+            engine = "Stage 4 Opgradering"
         end
     end
 
@@ -3926,11 +3926,11 @@ RegisterNetEvent('craft:vehmods', function()
         if brakesMod == -1 then
             brakes = "Stock"
         elseif brakesMod == 0 then
-            brakes = "Stage 1 Upgrade"
+            brakes = "Stage 1 Opgradering"
         elseif brakesMod == 1 then
-            brakes = "Stage 2 Upgrade"
+            brakes = "Stage 2 Opgradering"
         elseif brakesMod == 2 then
-            brakes = "Stage 3 Upgrade"
+            brakes = "Stage 3 Opgradering"
         end
     end
 
@@ -3940,11 +3940,11 @@ RegisterNetEvent('craft:vehmods', function()
         if transMod == -1 then
             transmission = "Stock"
         elseif transMod == 0 then
-            transmission = "Stage 1 Upgrade"
+            transmission = "Stage 1 Opgradering"
         elseif transMod == 1 then
-            transmission = "Stage 2 Upgrade"
+            transmission = "Stage 2 Opgradering"
         elseif transMod == 2 then
-            transmission = "Stage 3 Upgrade"
+            transmission = "Stage 3 Opgradering"
         end
     end
 
@@ -3954,26 +3954,26 @@ RegisterNetEvent('craft:vehmods', function()
         if susMod == -1 then
             suspension = "Stock"
         elseif susMod == 0 then
-            suspension = "Stage 1 Upgrade"
+            suspension = "Stage 1 Opgradering"
         elseif susMod == 1 then
-            suspension = "Stage 2 Upgrade"
+            suspension = "Stage 2 Opgradering"
         elseif susMod == 2 then
-            suspension = "Stage 3 Upgrade"
+            suspension = "Stage 3 Opgradering"
         elseif susMod == 3 then
-            suspension = "Stage 4 Upgrade"
+            suspension = "Stage 4 Opgradering"
         end
     end
 
     exports['qb-menu']:openMenu({
         {
             id = 1,
-            header = "Vehicle: " .. plate,
+            header = "Køretøj: " .. plate,
             txt = "",
             isMenuHeader = true
         },
         {
             id = 2,
-            header = "Engine: " .. engine,
+            header = "Motor: " .. engine,
             txt = "",
             isMenuHeader = true
         },
@@ -3991,7 +3991,7 @@ RegisterNetEvent('craft:vehmods', function()
         },
         {
             id = 5,
-            header = "Brakes: " .. brakes,
+            header = "Bremser: " .. brakes,
             txt = "",
             isMenuHeader = true
         },
@@ -4003,7 +4003,7 @@ RegisterNetEvent('craft:vehmods', function()
         },
         {
             id = 7,
-            header = "<-- Back",
+            header = "< Tilbage",
             txt = "",
             params = {
                 event = "craft:vehmenu",
@@ -4028,28 +4028,28 @@ RegisterNetEvent('craft:vehstatus', function()
     exports['qb-menu']:openMenu({
         {
             id = 1,
-            header = "Engine Health",
+            header = "Motor Helbred",
             txt = "Status: " .. math.ceil(engineHealth / 10) .. "% / 100.0%",
         },
         {
             id = 2,
-            header = "Body Condition",
+            header = "Karosseri Tilstand",
             txt = "Status: " .. math.ceil(bodyHealth / 10) .. "% / 100.0%",
         },
         {
             id = 3,
-            header = "Fuel Level",
+            header = "Benzin Tank",
             txt = "Status: " .. math.ceil(fuelHealth) .. ".0% / 100.0%",
         },
         {
             id = 4,
-            header = "Engine Temperature",
+            header = "Motor Temperatur",
             txt = "Status: " .. math.ceil(vehTemp) .. "° C",
         },
 
         {
             id = 5,
-            header = "Close Menu",
+            header = "Luk Menu",
             txt = "",
             params = {
                 event = "qb-menu:client:closeMenu",

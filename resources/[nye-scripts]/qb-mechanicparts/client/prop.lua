@@ -1,5 +1,5 @@
 local holdingPackage          = false
-local dropkey 	= 58 -- Key to drop/get the props
+local dropkey 	= 58 -- Key to drop/get the props 58 = G
 local closestEntity = 0
 
 

@@ -36,7 +36,7 @@ Config.Toggle = false
 Config.OutlineColor = {255, 255, 255}
 
 -- Enable default options (Toggling vehicle doors)
-Config.EnableDefaultOptions = true
+Config.EnableDefaultOptions = false
 
 -- Disable the target eye whilst being in a vehicle
 Config.DisableInVehicle = false
@@ -66,7 +66,24 @@ Config.PolyZones = {
 }
 
 Config.TargetBones = {
-
+	["mechanic"] = {
+        bones = {
+            "door_dside_f",
+            "door_dside_r",
+            "door_pside_f",
+            "door_pside_r"
+        },
+        options = {
+            {
+                type = "client",
+                event = "craft:vehmenu",
+                icon = "fas fa-wrench",
+                label = "Køretøjs Menu",
+                job = "mechanic",
+            },
+		},
+		distance = 3.0
+	},
 }
 
 Config.TargetModels = {
@@ -100,6 +117,24 @@ Config.TargetModels = {
         },
         distance = 2.5,
     },
+--[[	["mechanic"] = {
+        bones = {
+            "door_dside_f",
+            "door_dside_r",
+            "door_pside_f",
+            "door_pside_r"
+        },
+        options = {
+            {
+                type = "client",
+                event = "craft:vehmenu",
+                icon = "fad fa-key",
+                label = "Vehicle Menu",
+                job = "mechanic",
+            },
+		},
+		distance = 3.0
+	},]]
 }
 
 Config.GlobalPedOptions = {
