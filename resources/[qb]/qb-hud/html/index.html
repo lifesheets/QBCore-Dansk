@@ -312,7 +312,7 @@
                         <div v-if="showEngine">
                             <q-circular-progress class="q-ml-xl" style="opacity: 40%;" :value="static" size="45px" :thickness="1" :style="{color: engineColor}" :min="0" :max="100"></q-circular-progress>
                             <q-circular-progress class="q-ml-xl" style="left: -50%;" show-value :value="engine" size="45px" :thickness="1" :style="{color: engineColor}" :min="0" :max="100" center-color="farve">
-                            <q-icon style="top: -1px;" name="fas fa-oil-can" size="19.5px":style="{color: engineColor}"/>
+                            <q-icon style="top: -1px;" name="fas fa-oil-can" color="black" size="19.5px":style="{color: engineColor}"/>
                         </div>
                         </transition>
                         <transition name="fade">
@@ -333,7 +333,7 @@
                         <div v-if="showNos">
                             <q-circular-progress class="q-ml-xl" style="opacity: 40%;" :value="static" size="45px" :thickness="1" color="nos" :min="0" :max="100"></q-circular-progress>
                             <q-circular-progress class="q-ml-xl" style="left: -50%;" show-value :value="nos" size="45px" :thickness="1" color="nos" :min="0" :max="100" center-color="farve">
-                            <q-icon name="fas fa-meteor" size="19.5px" :style="{color: nosColor}"/>
+                            <q-icon name="fas fa-meteor" color="black" size="19.5px" :style="{color: nosColor}"/>
                         </div>
                         </transition>
                         <transition name="fade">
