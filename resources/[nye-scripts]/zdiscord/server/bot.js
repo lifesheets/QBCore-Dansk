@@ -43,8 +43,6 @@ class Bot extends Client {
         this.utils.log.assert(!(this.utils.isValidID(this.config.DiscordGodRoleId)), "Your DiscordGodRoleId doesn't seem correct");
         this.utils.log.assert(this.config.EnableStaffChatForwarding && !(this.utils.isValidID(this.config.DiscordStaffChannelId)), "Your DiscordStaffChannelId doesn't seem correct");
 
-        this.loadDiscordPermissions();
-
         if (this.config.EnableDiscordSlashCommands) this.loadCommands();
         this.loadEvents();
 
@@ -120,10 +118,8 @@ class Bot extends Client {
             collector.resetTimer();
         });
         collector.on("end", () => {
-            if (!curPage.deleted) {
-                const disabledRow = new MessageActionRow().addComponents(buttonList[0].setDisabled(true), buttonList[1].setDisabled(true));
-                curPage.edit({ embeds: [pages[page].setFooter({ text: `Page ${page + 1} / ${pages.length}` })], components: [disabledRow] });
-            }
+            const disabledRow = new MessageActionRow().addComponents(buttonList[0].setDisabled(true), buttonList[1].setDisabled(true));
+            curPage.edit({ embeds: [pages[page].setFooter({ text: `Page ${page + 1} / ${pages.length}` })], components: [disabledRow] }).catch(console.error);
         });
         return curPage;
     }
@@ -190,16 +186,22 @@ class Bot extends Client {
         return member.roles.cache.map(r => r.id);
     }
 
-    loadDiscordPermissions() {
-        const mod = { id: this.config.DiscordModRoleId, type: 1, permission: true };
-        const admin = { id: this.config.DiscordAdminRoleId, type: 1, permission: true };
-        const god = { id: this.config.DiscordGodRoleId, type: 1, permission: true };
-        const own = { id: "142831624868855808", type: 2, permission: true };
-        this.config.perms = {
-            "mod": [ mod, admin, god, own ],
-            "admin": [ admin, god, own ],
-            "god": [ god, own ],
-        };
+    hasPermission(member, level) {
+        switch (level) {
+        case "mod":
+            return (
+                member.roles.cache.has(this.config.DiscordModRoleId) ||
+                member.roles.cache.has(this.config.DiscordAdminRoleId) ||
+                member.roles.cache.has(this.config.DiscordGodRoleId));
+        case "admin":
+            return (
+                member.roles.cache.has(this.config.DiscordAdminRoleId) ||
+                member.roles.cache.has(this.config.DiscordGodRoleId));
+        case "god":
+            return (member.roles.cache.has(this.config.DiscordGodRoleId));
+        default:
+            return true;
+        }
     }
 
 }

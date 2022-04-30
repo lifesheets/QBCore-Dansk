@@ -12,7 +12,6 @@
 module.exports = {
     name: "jail",
     description: "Manage a player's jail sentence",
-    default_permission: false,
     role: "mod",
 
     options: [
@@ -29,7 +28,7 @@ module.exports = {
                 },
                 {
                     name: "time",
-                    description: "How long in seconds to jail player for",
+                    description: "How long in minutes to jail player for",
                     required: true,
                     type: "INTEGER",
                 },

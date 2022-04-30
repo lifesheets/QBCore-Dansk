@@ -12,8 +12,8 @@ const LanguageLocaleCode = "en";
 
 // PUBLIC VALUES
 const FiveMServerName = "Server Navn";
-const DiscordInviteLink = "Indsæt discord link her";
-const FiveMServerIP = "cfx.re/join/ybbo5k";
+const DiscordInviteLink = "discord_invite_link";
+const FiveMServerIP = "127.0.0.1";
 
 // This spams the console, only enable for testing if needed
 const DebugLogs = false;
@@ -26,8 +26,8 @@ const DebugLogs = false;
 const EnableDiscordBot = true;
 
 // DISCORD BOT
-const DiscordBotToken = "NzYxMjY3ODYxMjEyODg5MDk4.X3YH8Q.br3U4Falx5tvt48e-blJCePOiCk";
-const DiscordGuildId = "911697271144464476";
+const DiscordBotToken = "SKIFT";
+const DiscordGuildId = "000000000000000000";
 
 // STAFF CHAT
 const EnableStaffChatForwarding = false;
@@ -37,14 +37,14 @@ const AdditionalStaffChatRoleIds = [
 ];
 
 // WHITELISTING / ALLOWLISTING
-const EnableWhitelistChecking = false;
+const EnableWhitelistChecking = true;
 const DiscordWhitelistRoleIds = "000000000000000000, 000000000000000000";
 
 // SLASH COMMANDS / DISCORD PERMISSIONS
 const EnableDiscordSlashCommands = true;
-const DiscordModRoleId = "911697271861698635";
-const DiscordAdminRoleId = "911697271882661960";
-const DiscordGodRoleId = "922105322229882901";
+const DiscordModRoleId = "000000000000000000";
+const DiscordAdminRoleId = "000000000000000000";
+const DiscordGodRoleId = "000000000000000000";
 
 // DISCORD BOT STATUS
 const EnableBotStatusMessages = true;
@@ -69,7 +69,7 @@ const SaveScreenshotsToServer = false;
 **************************/
 
 const EnableLoggingWebhooks = false;
-const LoggingWebhookName = "Server Navn";
+const LoggingWebhookName = "zLogs";
 // put "&" in front of the id if you're to ping a role
 const LoggingAlertPingId = "&000000000000000000";
 // example: "bank": "https://discord.com/webhook/...",

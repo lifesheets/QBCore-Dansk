@@ -19,7 +19,7 @@ A Discord bot that runs in FiveM for the purpose of whitelisting, moderation and
 - Moderation tools (kick, ban, inspect, etc)
 - [QBCore](https://github.com/qbcore-framework) [commands](https://zfbx.github.io/zdiscord/commands) included!
 - Easy to expand and customize with modular [commands](https://zfbx.github.io/zdiscord/commands#add-commands)!
-- Can be configured with [convars](https://zfbx.github.io/zdiscord/convars)
+- Can be configured with [convars](https://zfbx.github.io/zdiscord/config)
 - Automatic Ace Permission granting system
 - [Helpful exports](https://zfbx.github.io/zdiscord/exports)
 - bi-directional staff chat
@@ -37,11 +37,9 @@ A Discord bot that runs in FiveM for the purpose of whitelisting, moderation and
 
 2. **IMPORTANT: Enable BOTH intents** on the **bot** page of step 1 ([Picture example](https://zfbx.github.io/zdiscord/images/intents.png)) *If you don't do this.. your bot will NOT work.
 
-3. Add the bot to your server - To do this copy the following link and replace `YOUR-BOT-ID` with your bots ID then follow the invite process to your discord from the link
-`https://discord.com/api/oauth2/authorize?client_id=YOUR-BOT-ID&permissions=8&scope=bot%20applications.commands`<br>
-**NOTE: If the bot is already in your server you might need to run the link above again anyways to make sure it can get the needed slash command scope (unrelated to permissions)**
+3. Add the bot to your server - To do this copy the following link and replace `YOUR-BOT-ID` with your bots ID then follow the invite process to your discord from the link `https://discord.com/api/oauth2/authorize?client_id=YOUR-BOT-ID&permissions=8&scope=bot%20applications.commands`<br> **NOTE: If the bot is already in your server you might need to run the link above again anyways to make sure it can get the needed slash command scope (unrelated to permissions)**
 
-4. Copy the resource into your fiveM resources directory and make sure it's named `zdiscord` (no -main or anything)
+4. Copy the resource into your fiveM resources directory and make sure it's named `zdiscord` (not zdiscord-djs, zdiscord-eris or anything)
 
 5. Double check that you have the [cfx-server-data](https://github.com/citizenfx/cfx-server-data) resource in your resources (or yarn `[system]/[builders]/yarn/` at the very least)
 
