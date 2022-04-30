@@ -578,11 +578,11 @@ RegisterNetEvent('qb-vehicleshop:client:swapVehicle', function(data)
         local closestVehicle, closestDistance = QBCore.Functions.GetClosestVehicle(vector3(Config.Shops[shopName]["ShowroomVehicles"][data.ClosestVehicle].coords.x, Config.Shops[shopName]["ShowroomVehicles"][data.ClosestVehicle].coords.y, Config.Shops[shopName]["ShowroomVehicles"][data.ClosestVehicle].coords.z))
         if closestVehicle == 0 then return end
         if closestDistance < 5 then QBCore.Functions.DeleteVehicle(closestVehicle) end
-        Wait(250)
+        Wait(50)
         local model = GetHashKey(data.toVehicle)
         RequestModel(model)
         while not HasModelLoaded(model) do
-            Citizen.Wait(250)
+            Wait(50)
         end
         local veh = CreateVehicle(model, Config.Shops[shopName]["ShowroomVehicles"][data.ClosestVehicle].coords.x, Config.Shops[shopName]["ShowroomVehicles"][data.ClosestVehicle].coords.y, Config.Shops[shopName]["ShowroomVehicles"][data.ClosestVehicle].coords.z, false, false)
         SetModelAsNoLongerNeeded(model)
@@ -591,7 +591,7 @@ RegisterNetEvent('qb-vehicleshop:client:swapVehicle', function(data)
         SetEntityHeading(veh, Config.Shops[shopName]["ShowroomVehicles"][data.ClosestVehicle].coords.w)
         SetVehicleDoorsLocked(veh, 3)
         FreezeEntityPosition(veh, true)
-        SetVehicleNumberPlateText(veh, 'KOB MIG')
+        SetVehicleNumberPlateText(veh, 'KØB MIG')
         Config.Shops[shopName]["ShowroomVehicles"][data.ClosestVehicle].chosenVehicle = data.toVehicle
     end
 end)
@@ -777,7 +777,7 @@ CreateThread(function()
             SetVehicleDoorsLocked(veh, 3)
             SetEntityHeading(veh, Config.Shops[k]["ShowroomVehicles"][i].coords.w)
             FreezeEntityPosition(veh,true)
-            SetVehicleNumberPlateText(veh, 'KOB MIG')
+            SetVehicleNumberPlateText(veh, 'KØB MIG')
         end
 			
         createVehZones(k)
