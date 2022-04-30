@@ -591,7 +591,7 @@ RegisterNetEvent('qb-vehicleshop:client:swapVehicle', function(data)
         SetEntityHeading(veh, Config.Shops[shopName]["ShowroomVehicles"][data.ClosestVehicle].coords.w)
         SetVehicleDoorsLocked(veh, 3)
         FreezeEntityPosition(veh, true)
-        SetVehicleNumberPlateText(veh, 'KØB MIG')
+        SetVehicleNumberPlateText(veh, 'KOB MIG')
         Config.Shops[shopName]["ShowroomVehicles"][data.ClosestVehicle].chosenVehicle = data.toVehicle
     end
 end)
@@ -777,7 +777,7 @@ CreateThread(function()
             SetVehicleDoorsLocked(veh, 3)
             SetEntityHeading(veh, Config.Shops[k]["ShowroomVehicles"][i].coords.w)
             FreezeEntityPosition(veh,true)
-            SetVehicleNumberPlateText(veh, 'KØB MIG')
+            SetVehicleNumberPlateText(veh, 'KOB MIG')
         end
 			
         createVehZones(k)
