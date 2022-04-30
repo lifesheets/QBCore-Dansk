@@ -42,7 +42,7 @@ body::-webkit-scrollbar {
     width: auto;
     max-width: 45%;
     height: 10%;
-    background: rgba(23, 23, 23, 90%);
+    background: rgba(10, 10, 10, 0.9);
     color: white;
     margin: auto;
     position: relative;
@@ -58,7 +58,13 @@ body::-webkit-scrollbar {
 }
 
 .button:hover {
-    background: radial-gradient(rgba(99, 38, 38, 90%),rgba(23, 23, 23, 90%));
+    animation: fadeoutBg 0.3s;
+    background-color: rgb(80, 40, 40); 
+}
+
+@keyframes fadeoutBg {
+    from { background-color: rgba(10, 10, 10, 0.9); }
+    to { background-color: rgb(80, 40, 40); }
 }
 
 .title {
