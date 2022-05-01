@@ -29,7 +29,7 @@ body {
     position: relative;
     padding:8px;
     width: fit-content;
-    border-radius:10px;
+    border-radius:6px;
     margin: 5px;
     font-family: 'Lato', sans-serif;
     font-size:13px;
@@ -38,16 +38,31 @@ body {
 }
 
 .success {
-    background: rgba(54, 156, 80, 0.85);
+    background: rgba(50, 175, 50, 0.85);
     color: #fff;
 }
 
 .primary {
-    background-color: rgba(51, 112, 165, 0.85);
+    background-color: rgba(50, 50, 175, 0.85);
     color: #ffffff;
 }
 
 .error {
-    background-color: rgba(181, 82, 85, 0.85);
+    background-color: rgba(175, 50, 50, 0.85);
+    color: #fff;
+}
+
+.multifarvet {
+    background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: #fff;
+}
+
+.multifarvet2 {
+    background-image: linear-gradient(90deg, rgba(153,0,255,1) 0%, rgba(255,179,0,1) 50%, rgba(14,255,0,1) 100%);
+    color: #fff;
+}
+
+.multifarvet3 {
+    background-image: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,119,0,1) 10%, rgba(255,231,0,1) 20%, rgba(176,255,0,1) 30%, rgba(39,255,0,1) 40%, rgba(0,255,205,1) 50%, rgba(0,159,255,1) 60%, rgba(0,22,255,1) 70%, rgba(162,0,255,1) 80%, rgba(175,0,255,1) 90%, rgba(255,0,249,1) 100%);
     color: #fff;
 }
