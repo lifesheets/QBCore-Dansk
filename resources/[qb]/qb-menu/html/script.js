@@ -3,32 +3,29 @@ let buttonParams = [];
 const openMenu = (data = null) => {
     let html = "";
     data.forEach((item, index) => {
-        let header = item.header;
-        let message = item.txt || item.text;
-        let isMenuHeader = item.isMenuHeader;
-        let icon = item.icon;
-        html += getButtonRender(header, message, index, isMenuHeader, isDisabled, icon);  
-        if (item.params) buttonParams[index] = item.params;
+        if(!item.hidden) {
+            let header = item.header;
+            let message = item.txt || item.text;
+            let isMenuHeader = item.isMenuHeader;
+            let isDisabled = item.disabled;
+            let icon = item.icon;
+            html += getButtonRender(header, message, index, isMenuHeader, isDisabled, icon);  
+            if (item.params) buttonParams[index] = item.params;
+        }
     });
 
     $("#buttons").html(html);
+
+    $('.button').click(function() {
+        const target = $(this)
+        if (!target.hasClass('title') && !target.hasClass('disabled')) {
+            postData(target.attr('id'));
+        }
+    });
 };
 
-const showHeader = (data = null) => {
-    let html = "";
-    data.forEach((item, index) => {
-        let header = item.header;
-        let message = item.txt || item.text;
-        let isMenuHeader = item.isMenuHeader;
-        html += getButtonRender(header, message, index, isMenuHeader);
-        if (item.params) buttonParams[index] = item.params;
-    });
-    $("#buttons").html(html);
-}
-
 const getButtonRender = (header, message = null, id, isMenuHeader, isDisabled, icon) => {
-    if (message) {
-        return `
+    return `
         <div class="${isMenuHeader ? "title" : "button"} ${isDisabled ? "disabled" : ""}" id="${id}">
             <div class="icon"> <img src=nui://${icon} width=30px onerror="this.onerror=null; this.remove();"> <i class="${icon}" onerror="this.onerror=null; this.remove();"></i> </div>
             <div className="column">
@@ -36,16 +33,7 @@ const getButtonRender = (header, message = null, id, isMenuHeader, isDisabled, i
             ${message ? `<div class="text">${message}</div>` : ""}
             </div>
         </div>
-        `;
-    } else {
-        return `
-            <div class="${
-                isMenuHeader ? "title" : "button"
-            }" data-btn-id="${id}">
-                <div class="header">${header}</div>
-            </div>
-        `;
-    }
+    `;
 };
 
 const closeMenu = () => {
@@ -54,7 +42,7 @@ const closeMenu = () => {
 };
 
 const postData = (id) => {
-    $.post(`https://${GetParentResourceName()}/clickedButton`, JSON.stringify(id + 1));
+    $.post(`https://${GetParentResourceName()}/clickedButton`, JSON.stringify(parseInt(id) + 1));
     return closeMenu();
 };
 
@@ -63,13 +51,7 @@ const cancelMenu = () => {
     return closeMenu();
 };
 
-$(document).click(function (event) {
-    let target = $(event.target);
-    if (target.closest(".button").length && $(".button").is(":visible")) {
-        let btnId = $(event.target).closest(".button").data("btn-id");
-        postData(btnId);
-    }
-});
+
 
 window.addEventListener("message", (event) => {
     const data = event.data;
@@ -77,9 +59,8 @@ window.addEventListener("message", (event) => {
     const action = data.action;
     switch (action) {
         case "OPEN_MENU":
-            return openMenu(buttons);
         case "SHOW_HEADER":
-            return showHeader(buttons);
+            return openMenu(buttons);
         case "CLOSE_MENU":
             return closeMenu();
         default:
